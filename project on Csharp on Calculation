@@ -1,0 +1,59 @@
+using System;
+
+namespace assignmentk
+
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1, num2, sum;
+            Console.WriteLine("Calculate the sum of two numbers:");
+            Console.Write("Input number1:");
+            num1 = int.Parse(Console.ReadLine());
+            Console.Write("Input number2:");
+            num2 = int.Parse(Console.ReadLine());
+            sum = num1 + num2;
+            Console.Write("Result:" + sum);
+            Console.ReadKey();
+
+
+
+            int num3, num4, subtraction;
+            Console.WriteLine("Calculate the subtraction of two number:");
+            Console.Write("Input number3:");
+            num3 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Input number4:");
+            num4 = Convert.ToInt32(Console.ReadLine());
+            subtraction = num3 - num4;
+            Console.Write("Result:"+subtraction);
+            Console.ReadKey();
+
+
+
+            int num5, num6, multiplication;
+            Console.WriteLine("Calculate the multiplication of two munber:");
+            Console.Write("Input number5:");
+            num5 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Iput number6:");
+            num6 = Convert.ToInt32(Console.ReadLine());
+            multiplication = num5 * num6;
+            Console.Write("Result:" + multiplication);
+            Console.ReadKey();
+
+
+            int num7, num8, division;
+            Console.WriteLine("Calculate the division of two munber:");
+            Console.Write("Input number7:");
+            num7 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Iput number8:");
+            num8 = Convert.ToInt32(Console.ReadLine());
+            division = num7 / num8;
+            Console.Write("Result:" + multiplication);
+            Console.ReadKey();
+
+            
+        }
+      
+        }
+    }
